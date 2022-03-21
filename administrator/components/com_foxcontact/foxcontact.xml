@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade"> 
+	<name>COM_FOXCONTACT</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>19/03/2011</creationDate>
+	<author>Demis Palma</author>
+	<authorEmail>demis@extreme.ra.it</authorEmail>
+	<authorUrl>http://www.fox.ra.it/joomla-extensions/fox-contact-form.html</authorUrl>
+	<copyright>Demis Palma</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<!--  The version string is recorded in the components table -->
+	<version>1.6.13</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>COM_FOXCONTACT_DESCRIPTION</description>
+ 
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>foxcontact.php</filename>
+		<filename>controller.php</filename>
+		<folder>css</folder>
+		<folder>views</folder>
+		<folder>helpers</folder>
+	</files>
+ 
+	<media destination="com_foxcontact" folder="media">
+		<filename>index.html</filename>
+		<folder>images</folder>
+	</media>
+
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu img="../media/com_foxcontact/images/email-16.png">COM_FOXCONTACT_MENU</menu>
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>foxcontact.php</filename>
+			<folder>models</folder>
+		</files>
+
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB/en-GB.com_foxcontact.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_foxcontact.sys.ini</language>
+			<language tag="it-IT">language/it-IT/it-IT.com_foxcontact.ini</language>
+			<language tag="it-IT">language/it-IT/it-IT.com_foxcontact.sys.ini</language>
+			<language tag="fr-FR">language/fr-FR/fr-FR.com_foxcontact.ini</language>
+			<language tag="fr-FR">language/fr-FR/fr-FR.com_foxcontact.sys.ini</language>
+			<language tag="pl-PL">language/pl-PL/pl-PL.com_foxcontact.ini</language>
+			<language tag="pl-PL">language/pl-PL/pl-PL.com_foxcontact.sys.ini</language>
+			<language tag="hu-HU">language/hu-HU/hu-HU.com_foxcontact.ini</language>
+			<language tag="hu-HU">language/hu-HU/hu-HU.com_foxcontact.sys.ini</language>
+			<language tag="zh-CN">language/zh-CN/zh-CN.com_foxcontact.ini</language>
+			<language tag="zh-CN">language/zh-CN/zh-CN.com_foxcontact.sys.ini</language>
+			<language tag="tr-TR">language/tr-TR/tr-TR.com_foxcontact.ini</language>
+			<language tag="tr-TR">language/tr-TR/tr-TR.com_foxcontact.sys.ini</language>
+		</languages>
+
+	</administration>
+
+	<installfile>install.php</installfile>
+	<uninstallfile>uninstall.php</uninstallfile>
+
+	<updateservers>
+		<server type="extension" priority="1" name="Foxcontact update site"><![CDATA[http://www.fox.ra.it/phocadownload/com_foxcontact.xml]]></server>
+	</updateservers>
+
+</extension>
+

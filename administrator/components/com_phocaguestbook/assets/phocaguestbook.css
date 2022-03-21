@@ -1,0 +1,105 @@
+#pg-update {
+	margin-top:25px;
+	margin-bottom: 15px;
+}
+
+#pg-install a,
+#pg-upgrade a,
+#pg-update a {
+	display: block;
+	background-color: #6699cc;
+	margin: 10px;
+	padding:10px 25px 10px 45px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border-bottom: 2px solid #215485;
+	border-right: 2px solid #215485;
+	border-top: 2px solid #8fbbe6;
+	border-left: 2px solid #8fbbe6;
+	text-align:center;
+	
+	color: #fff;
+	font-weight: bold;
+	font-size: x-large;
+	text-decoration: none;
+}
+#pg-install a:hover,
+#pg-upgrade a:hover,
+#pg-update a:hover {
+	
+	background-color: #4080BF;
+	margin: 10px;
+	padding:10px 25px 10px 45px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border-top: 2px solid #215485;
+	border-left: 2px solid #215485;
+	border-bottom: 2px solid #8fbbe6;
+	border-right: 2px solid #8fbbe6;
+	text-align:center;
+	
+	color: #fff;
+	font-weight: bold;
+	font-size: x-large;
+	text-decoration: none;
+	
+}
+
+#pg-install a {
+	width: 6em;
+	background: #6699cc url('images/bg-install.png') 10px center no-repeat;
+}
+#pg-install a:hover {
+	width: 6em;
+	background: #4080BF url('images/bg-install.png') 10px center no-repeat;
+}
+#pg-update a {
+	display: block;
+	width: 10em;
+	background: #6699cc url('images/bg-upgrade.png') 10px center no-repeat;
+}
+#pg-update a:hover {
+	display: block;
+	width: 10em;
+	background: #4080BF url('images/bg-upgrade.png') 10px center no-repeat;
+}
+
+#pg-upgrade a {
+	width: 6em;
+	background: #6699cc url('images/bg-upgrade.png') 10px center no-repeat;
+}
+#pg-upgrade a:hover {
+	width: 6em;
+	background: #4080BF url('images/bg-upgrade.png') 10px center no-repeat;
+}
+
+
+div.icon-48-info {
+	background: url('images/icon-48-pgu-info.png') no-repeat left;
+}
+div.icon-48-phoca {
+	background: url('images/icon-48-pgu-phoca.png') no-repeat left;
+}
+
+div.icon-48-item {
+	background: url('images/icon-48-pgu-item.png') no-repeat left;
+}
+
+div.icon-48-guestbook {
+	background: url('images/icon-48-pgu-guestbook.png') no-repeat left;
+}
+
+
+
+.license {
+	text-align:justify;
+	font-size: 9px;
+}
+
+.phoca-adminform {
+	background-color: #fff;
+	border: solid 1px #d5d5d5;
+	padding:10px;
+}

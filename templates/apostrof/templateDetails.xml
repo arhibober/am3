@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.6" type="template" client="site">
+	<name>apostrof</name>
+	<creationDate>2011 Apr 26</creationDate>
+	<author>Илья LeeSteR Сидоренко</author>
+	<authorEmail>design@studiosdl.com</authorEmail>
+	<authorUrl>http://studiosdl.com</authorUrl>
+	<copyright>Copyright 2011 DL Studios</copyright>
+	<license>Creative Commons</license>
+	<version>1.0</version>
+	<description>
+	<![CDATA[
+	<h1>TEMPLATE for Apostrof Publish</h1>
+	]]> 
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>template_preview.png</filename>
+		<filename>component.php</filename>
+		<filename>PIE.htc</filename>
+		<filename>DD_belatedPNG.js</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+	</files>
+	<positions>                          
+		<position>header</position>
+		<position>top</position>
+		<position>bottom</position>
+		<position>footer</position>
+	</positions>
+</extension>

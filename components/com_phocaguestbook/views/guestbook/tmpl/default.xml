@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_PHOCAGUESTBOOK_GUESTBOOK_LAYOUT">
+		<message><![CDATA[COM_PHOCAGUESTBOOK_GUESTBOOK_LAYOUT_DESC]]></message>
+	</layout>
+
+	<name>COM_PHOCAGUESTBOOK_GUESTBOOK_LAYOUT</name>
+	<description>COM_PHOCAGUESTBOOK_GUESTBOOK_LAYOUT_DESC</description>
+	
+	
+	<fields name="request">
+	<fieldset name="request" addfieldpath="/administrator/components/com_phocaguestbook/models/fields">
+		<field name="id" type="phocaguestbookguestbook" section="com_phocaguestbook" default="0" label="COM_PHOCAGUESTBOOK_FIELD_SELECT_GUESTBOOK_LAYOUT" description="COM_PHOCAGUESTBOOK_FIELD_SELECT_GUESTBOOK_DESC" />
+	</fieldset>
+	</fields>
+	
+	<fields name="params">
+	<fieldset name="basic" addfieldpath="/administrator/components/com_phocaguestbook/models/fields" >
+	
+		<field name="show_pagination" type="radio" default="1" label="COM_PHOCAGUESBOOK_FIELD_DISPLAY_PAGINATION_LABEL" description="COM_PHOCAGUESBOOK_FIELD_DISPLAY_PAGINATION_DESC">
+			<option value="0">COM_PHOCAGUESTBOOK_HIDE</option>
+			<option value="1">COM_PHOCAGUESTBOOK_DISPLAY</option>
+		</field>
+		
+		<field name="show_pagination_limit" type="radio" default="1" label="COM_PHOCAGUESBOOK_FIELD_DISPLAY_PAGINATION_SELECT_LABEL" description="COM_PHOCAGUESBOOK_FIELD_DISPLAY_PAGINATION_SELECT_DESC">
+			<option value="0">COM_PHOCAGUESTBOOK_HIDE</option>
+			<option value="1">COM_PHOCAGUESTBOOK_DISPLAY</option>
+		</field>
+		
+	</fieldset>
+	</fields>
+	
+</metadata>

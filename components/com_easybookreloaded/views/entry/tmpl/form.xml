@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="GUESTBOOK_FORM_LAYOUT" hidden="true" >
+		<message>
+			<![CDATA[GUESTBOOK_STANDARD_LAYOUT_DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>GUESTBOOK_FORM_LAYOUT</name>
+		<description>GUESTBOOK_FORM_LAYOUT_DESC</description>
+	</state>
+</metadata>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="GUESTBOOK_STANDARD_LAYOUT">
+		<message>
+			<![CDATA[GUESTBOOK_STANDARD_LAYOUT_DESC]]>
+		</message>
+	</layout>
+</metadata>

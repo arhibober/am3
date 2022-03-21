@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fields addfieldpath="/administrator/components/com_easybookreloaded/models/fields">
+		<fieldset name="component">
+			<field name="ebrtitle1" type="ebrtitle" default="COM_EASYBOOKRELOADED_RIGHTS" label="" description=""/>
+			<field name="offline" type="list" default="0" label="GUESTBOOK_OFFLINE" description="GUESTBOOK_OFFLINE_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="add_acl" type="list" default="1" label="ADD_ACL" description="ADD_ACL_DESC">
+				<option value="1">PUBLIC</option>
+				<option value="2">REGISTERED</option>
+				<option value="3">AUTHOR</option>
+				<option value="4">EDITOR</option>
+				<option value="5">PUBLISHER</option>
+				<option value="6">MANAGER</option>
+				<option value="7">ADMINISTRATOR</option>
+				<option value="8">SUPER_USERS</option>
+			</field>
+			<field name="admin_acl" type="list" default="8" label="ADMIN_ACL" description="ADMIN_ACL_DESC">
+				<option value="1">PUBLIC</option>
+				<option value="2">REGISTERED</option>
+				<option value="3">AUTHOR</option>
+				<option value="4">EDITOR</option>
+				<option value="5">PUBLISHER</option>
+				<option value="6">MANAGER</option>
+				<option value="7">ADMINISTRATOR</option>
+				<option value="8">SUPER_USERS</option>
+			</field>
+			<field name="ebrtitle2" type="ebrtitle" default="COM_EASYBOOKRELOADED_CONFIGURATION" label="" description=""/>
+			<field name="default_published" type="list" default="1" label="PUBLISH_NEW_ENTRIES" description="PUBLISH_NEW_ENTRIES_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="send_mail" type="list" default="1" label="SEND_NOTIFICATION_EMAIL" description="SEND_NOTIFICATION_EMAIL_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="send_mail_html" type="list" default="1" label="SEND_NOTIFICATION_EMAIL_HTML" description="SEND_NOTIFICATION_EMAIL_HTML_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="emailfornotification" type="text" size="60" default="" label="EMAIL_FOR_NOTIFICATION" description="EMAIL_FOR_NOTIFICATION_DESC" />
+			<field name="secret_word" type="text" size="20" default="" label="SECRET_WORD" description="SECRET_WORD_DESC" />		
+			<field name="valid_time_emailnot" type="text" size="5" default="1" label="VALID_TIME_FOR_NOTIFICATION" description="VALID_TIME_FOR_NOTIFICATION_DESC" />
+			<field name="badwordfilter" type="list" default="1" label="Badwordfilter" description="BADWORDFILTER_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="entries_perpage" type="text" size="3" default="10" label="ENTRIES_PER_PAGE" description="ENTRIES_PER_PAGE_DESC" />
+			<field name="entries_order" type="list" default="DESC" label="ENTRIES_ORDER" description="ENTRIES_ORDER_DESC">
+				<option value="DESC">NEW_ENTRIES_FIRST</option>
+				<option value="ASC">NEW_ENTRIES_LAST</option>
+			</field>
+			<field name="show_introtext" type="list" default="0" label="SHOW_INTROTEXT" description="SHOW_INTROTEXT_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="introtext" type="textarea" value="" rows="5" cols="40" filter="raw" label="Introtext" description="INTROTEXT_DESC" />
+			<field name="show_page_title" type="list" default="1" label="SHOW_PAGE_TITLE" description="SHOW_PAGE_TITLE_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="support_bbcode" type="list" default="1" label="ALLOW_BBCODE" description="ALLOW_BBCODE_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="support_smilie" type="list" default="1" label="ALLOW_SMILIES" description="ALLOW_SMILIES_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="smilie_set" type="list" default="0" label="SMILIES_SET" description="SMILIES_SET_DESC">
+				<option value="0">SET_1</option>
+				<option value="1">SET_2</option>
+			</field>
+			<field name="support_link" type="list" default="1" label="ALLOW_LINKS" description="ALLOW_LINKS_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="support_mail" type="list" default="1" label="ALLOW_EMAIL_ADDRESSES" description="ALLOW_EMAIL_ADDRESSES_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="support_pic" type="list" default="1" label="ALLOW_PICTURES" description="ALLOW_PICTURES_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="support_code" type="list" default="1" label="ALLOW_CODE" description="ALLOW_CODE_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="support_youtube" type="list" default="1" label="ALLOW_YOUTUBE" description="ALLOW_YOUTUBE_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="geshi_lines" type="list" default="1" label="GESHI_LINES" description="GESHI_LINES_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="wordwrap" type="list" default="1" label="AUTOMATIC_WORD_WRAP" description="AUTOMATIC_WORD_WRAP_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="maxlength" type="text" size="4" default="75" label="AUTOMATIC_WORD_WRAP_AFTER" description="AUTOMATIC_WORD_WRAP_AFTER_DESC" />
+			<field name="template_dark" type="list" default="0" label="DARK_TEMPLATE" description="DARK_TEMPLATE_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="date_format" type="list" default="0" label="DATE_FORMAT" description="DATE_FORMAT_DESC">
+				<option value="0">DATE_TIME</option>
+				<option value="1">DATE</option>
+			</field>
+			<field name="show_count_entries" type="list" default="1" label="SHOW_COUNT_ENTRIES" description="SHOW_COUNT_ENTRIES_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="show_logo" type="list" default="1" label="SHOW_LOGO" description="SHOW_LOGO_DESC">
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+				<option value="2">TEXT</option>
+				<option value="3">TEXTINV</option>
+			</field>
+			<field name="ebrtitle3" type="ebrtitle" default="COM_EASYBOOKRELOADED_FORM" label="" description=""/>
+			<field name="show_rating" type="list" default="1" label="SHOW_RATING" description="SHOW_RATING_DESC">
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+			</field>
+			<field name="rating_max"  type="text" size="3" default="10" label="MAX_RATING" description="MAX_RATING_DESC" />
+			<field name="show_rating_type" type="list" default="0" label="SHOW_RATING_TYPE" description="SHOW_RATING_TYPE_DESC">
+				<option value="0">TYPE_1</option>
+				<option value="1">TYPE_2</option>
+				<option value="2">TYPE_3</option>
+			</field>
+			<field name="enable_log" type="list" default="1" label="IP_LOGGING" description="IP_LOGGING_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="enable_log_notice" type="list" default="0" label="IP_LOGGING_NOTICE" description="IP_LOGGING_NOTICE_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="registered_username" type="list" default="0" label="REGISTERED_USERNAME" description="REGISTERED_USERNAME_DESC">
+				<option value="0">USERNAME</option>
+				<option value="1">NAME</option>
+			</field>
+			<field name="show_mail" type="list" default="1" label="SHOW_MAIL" description="SHOW_MAIL_DESC">
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+			</field>
+			<field name="require_mail" type="list" default="1" label="REQUIRE_MAIL" description="REQUIRE_MAIL_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="show_title" type="list" default="1" label="SHOW_TITLE" description="SHOW_TITLE_DESC">
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+			</field>
+			<field name="require_title" type="list" default="1" label="REQUIRE_TITLE" description="REQUIRE_TITLE_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="show_loca" type="list" default="1" label="SHOW_LOCATION" description="SHOW_LOCATION_DESC">
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+			</field>
+			<field name="show_home" type="list" default="1" label="SHOW_HOME" description="SHOW_HOME_DESC">
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+			</field>
+			<field name="nofollow_home" type="list" default="1" label="NOFOLLOW_HOME" description="NOFOLLOW_HOME_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="show_icq" type="list" default="1" label="SHOW_ICQ" description="SHOW_ICQ_DESC">
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+			</field>
+			<field name="show_aim" type="list" default="1" label="SHOW_AIM" description="SHOW_AIM_DESC">
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+			</field>
+			<field name="show_msn" type="list" default="1" label="SHOW_MSN" description="SHOW_MSN_DESC">
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+			</field>
+			<field name="show_yah" type="list" default="1" label="SHOW_YAH" description="SHOW_YAH_DESC">
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+			</field>
+			<field name="show_skype" type="list" default="1" label="SHOW_SKYPE" description="SHOW_SKYPE_DESC">
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+			</field>
+			<field name="ebrtitle4" type="ebrtitle" default="COM_EASYBOOKRELOADED_SPAM" label="" description=""/>
+			<field name="enable_spam" type="list" default="1" label="ENABLE_EASYCALCCHECK" description="ENABLE_EASYCALCCHECK_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="max_value" type="text" default="20" label="MAXIMUM_VALUE_FOR_EVERY_NUMBER" description="MAXIMUM_VALUE_FOR_EVERY_NUMBER_DESC" />
+			<field name="operator" type="list" default="0" label="CHOOSE_OPERATOR" description="CHOOSE_OPERATOR_DESC">
+				<option value="0">+</option>
+				<option value="1">-</option>
+				<option value="2">RANDOM</option>
+			</field>
+			<field name="type_time_sec" type="text" default="5" label="TIME_LOCK" description="TIME_LOCK_DESC" />
+			<field name="enable_spam_reg" type="list" default="1" label="ENABLE_EASYCALCCHECK_FOR_REG" description="ENABLE_EASYCALCCHECK_FOR_REG_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="maxnumberlinks" type="text" default="2" label="MAXIMUM_NUMBER_OF_LINKS" description="MAXIMUM_NUMBER_OF_LINKS_DESC" />
+			<field name="block_ip" type="textarea" default="" rows="5" cols="40" label="BLOCK_IP" description="BLOCK_IP_DESC" />
+			<field name="timelock_ip" type="text" default="30" label="TIMELOCK_IP" description="TIMELOCK_IP_DESC" />
+		</fieldset>
+		<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+			<field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" validate="rules"	filter="rules" component="com_easybookreloaded" section="component" />
+		</fieldset>
+	</fields>
+</config>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6">
+<name>Ukrainian Language Pack</name>
+<packagename>uk-UA</packagename>
+<version>1.6</version>
+<url>http://www.joomla-ua.org</url>
+<packager>Joomla! Ukraine</packager>
+<packagerurl>http://www.joomla-ua.org</packagerurl>
+<description>Український пакет локалізації Joomla 1.6</description>
+<files>
+        <file type="language" client="site" id="uk-UA">site_uk-UA.zip</file>
+        <file type="language" client="admin" id="uk-UA">admin_uk-UA.zip</file>
+</files>
+</extension>

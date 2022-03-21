@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_FOXCONTACT_FOXCONTACT_VIEW_DEFAULT_TITLE">
+		<message>COM_FOXCONTACT_FOXCONTACT_VIEW_DEFAULT_DESC</message>
+	</layout>
+
+	<fields name="params" addfieldpath="/administrator/components/com_foxcontact/models/fields">
+
+		<fieldset name="params" label="COM_MENUS_BASIC_FIELDSET_LABEL">
+
+			<field type="vfheader" default="COM_CONTACT_FIELDSET_CONTACTFORM_LABEL" icon="email-16.png"/>
+			<field name="to_address" type="vftext" size="26" label="COM_MAILTO_EMAIL_TO" description="COM_VFC_EMAIL_TO_DSC" default="COM_VFC_TOADDRESS_DFLT" required="true"/>
+			<field name="cc_address" type="text" size="26" label="COM_VFC_EMAIL_CC_LBL" description="COM_VFC_EMAIL_CC_DSC" />
+			<field name="bcc_address" type="text" size="26" label="COM_VFC_EMAIL_BCC_LBL" description="COM_VFC_EMAIL_CC_DSC" />
+			<field name="email_subject" type="vftext" size="26" label="COM_MAILTO_SUBJECT" description="COM_CONTACT_CONTACT_MESSAGE_SUBJECT" default="COM_VFC_SUBJECT_DFLT" />
+<!--
+			<field type="spacer" />
+			<field name="ShowEmailCopy" type="list" label="COM_CONTACT_FIELD_EMAIL_EMAIL_COPY_LABEL" description="COM_CONTACT_FIELD_EMAIL_EMAIL_COPY_DESC" default="0">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+-->
+		</fieldset>
+
+		<fieldset name="fields" label="COM_VFC_FIELDS_LBL">
+
+			<field type="vfheader" default="COM_MENUS_PAGE_OPTIONS_LABEL" icon="page-16.png"/>
+			<field name="page_subheading" type="vftext" size="26" label="JGLOBAL_SUBHEADING_LABEL" description="JGLOBAL_SUBHEADING_DESC" default="COM_CONTACT_EMAIL_FORM" />
+
+			<field type="spacer" class="text" label="COM_VFC_SPACER_USER_DATA_LBL" description="COM_VFC_SPACER_USER_DATA_DSC" />
+
+			<field name="sender0" type="vftext" size="26" label="COM_VFC_NAME_REQUEST_LBL" description="" default="COM_MAILTO_SENDER" />
+			<field name="sender0display" type="hidden" default="2" />
+
+			<field name="sender1" type="vftext" size="26" label="COM_VFC_ADDRESS_REQUEST_LBL" description="" default="COM_MAILTO_YOUR_EMAIL" />
+			<field name="sender1display" type="hidden" default="2" />
+			<field name="sender1isemail" type="hidden" default="1" />
+
+			<field name="senderwidth" type="text" label="COM_VFC_WIDTH_LBL" description="COM_CACHE_SIZE" default="280" size="4" />
+			<field name="senderunit" type="list" label="COM_VFC_UNITS_LBL" default="px">
+				<option value="px">COM_VFC_PIXELS</option>
+				<option value="%">COM_VFC_PERCENT</option>
+			</field>
+			<field type="spacer" />
+
+			<field type="vfheader" default="COM_VFC_TEXTFIELDS_LBL" icon="keyboard-16.png"/>
+
+			<field name="text0" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" default="COM_VFC_TEXT0_DFLT" />
+			<field name="text0display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="1">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field type="spacer" />
+
+			<field name="text1" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="text1display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field type="spacer" />
+
+			<field name="text2" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="text2display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field type="spacer" />
+
+			<field name="text3" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="text3display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field type="spacer" />
+
+			<field name="text4" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="text4display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field type="spacer" />
+
+			<field name="text5" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="text5display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field type="spacer" />
+
+			<field name="text6" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="text6display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field type="spacer" />
+
+			<field name="text7" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="text7display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field type="spacer" />
+
+			<field name="text8" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="text8display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field type="spacer" />
+
+			<field name="text9" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="text9display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field type="spacer" />
+
+			<field name="textwidth" type="text" label="COM_VFC_WIDTH_LBL" description="COM_CACHE_SIZE" default="280" size="4" />
+			<field name="textunit" type="list" label="COM_VFC_UNITS_LBL" default="px">
+				<option value="px">COM_VFC_PIXELS</option>
+				<option value="%">COM_VFC_PERCENT</option>
+			</field>
+			<field type="spacer" />
+
+			<field type="vfheader" default="COM_VFC_DROPDOWNFIELDS_LBL" icon="dropdown-16.png"/>
+
+			<field name="dropdown0" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" default="COM_VFC_DROPDOWN0_DFLT"/>
+			<field name="dropdown0display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="1">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field name="dropdown0values" type="vftextarea" rows="3" cols="30" label="COM_VFC_DROPDOWNITEMS_LBL" description="COM_VFC_DROPDOWNITEMS_DSC" default="COM_VFC_DROPDOWN0V_DFLT" />
+
+			<field name="dropdown1" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="dropdown1display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field name="dropdown1values" type="vftextarea" rows="3" cols="30" label="COM_VFC_DROPDOWNITEMS_LBL" description="COM_VFC_DROPDOWNITEMS_DSC" />
+
+			<field name="dropdown2" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="dropdown2display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field name="dropdown2values" type="vftextarea" rows="3" cols="30" label="COM_VFC_DROPDOWNITEMS_LBL" description="COM_VFC_DROPDOWNITEMS_DSC" />
+
+			<field type="vfheader" default="COM_VFC_TEXTAREAFIELD_LBL" description="COM_VFC_TEXTAREAFIELD_DSC" icon="note-16.png"/>
+
+			<field name="textarea0" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" default="COM_VFC_TEXTAREA0_DFLT"/>
+			<field name="textarea0display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="1">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field type="spacer" />
+
+			<field name="textarea1" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" default=""/>
+			<field name="textarea1display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field type="spacer" />
+
+			<field name="textarea2" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" default=""/>
+			<field name="textarea2display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+			<field type="spacer" />
+
+			<field name="textareawidth" type="text" label="COM_VFC_WIDTH_LBL" description="" default="280" size="5" />
+			<field name="textareaheight" type="text" label="COM_VFC_HEIGHT_LBL" description="" default="180" size="5" />
+			<field name="textareaunit" type="list" label="COM_VFC_UNITS_LBL" default="px">
+				<option value="px">COM_VFC_PIXELS</option>
+				<option value="%">COM_VFC_PERCENT</option>
+			</field>
+			<field type="spacer" />
+
+			<field type="vfheader" default="COM_VFC_CHECKBOXFIELDS_LBL" icon="checkbox-16.png"/>
+
+			<field name="checkbox0" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" default="COM_VFC_CHECKBOX0_DFLT"/>
+			<field name="checkbox0display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="1">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+
+			<field name="checkbox1" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="checkbox1display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+
+			<field name="checkbox2" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="checkbox2display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+
+			<field name="checkbox3" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="checkbox3display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+
+			<field name="checkbox4" type="vftext" label="COM_VFC_FIELDNAME_LBL" description="COM_VFC_FIELDNAME_DSC" size="26" />
+			<field name="checkbox4display" type="list" label="JGLOBAL_STATE" description="JFIELD_ENABLED_DESC" default="0">
+				<option value="0">JDISABLED</option>
+				<option value="1">JOPTION_OPTIONAL</option>
+				<option value="2">JOPTION_REQUIRED</option>
+			</field>
+
+		</fieldset>
+
+		<fieldset name="events" label="COM_VFC_EVENTS_LBL">
+
+			<field type="vfheader" default="COM_VFC_EVENTS_TEXT_LBL" icon="information-16.png"/>
+			<!-- filter="raw" and filter="safehtml" attributes prevent from joomla from parse and remove html code written into textareas -->
+			<field name="top_text" type="vftextarea" filter="safehtml" rows="4" cols="48" label="COM_VFC_TEXT_TOP_LBL" description="COM_VFC_TEXT_TOP_DSC" default="COM_VFC_TOPTEXT_DFLT" />
+			<field name="top_textdisplay" type="hidden" default="1" />
+			<field name="bottom_text" type="vftextarea" filter="safehtml" rows="4" cols="48" label="COM_VFC_TEXT_BOTTOM_LBL" description="COM_VFC_TEXT_BOTTOM_DSC" default="COM_VFC_BOTTOMTEXT_DFLT" />
+			<field name="bottom_textdisplay" type="hidden" default="1" />
+			<field name="missing_fields_text" type="vftextarea" filter="safehtml" rows="4" cols="48" label="COM_VFC_TEXT_MISSING_LBL" description="COM_VFC_TEXT_MISSING_DSC" default="COM_VFC_MISSINGTEXT_DFLT" />
+			<field name="missing_fields_textdisplay" type="hidden" default="1" />
+			<field name="email_sent_text" type="vftextarea" filter="safehtml" rows="4" cols="48" label="COM_VFC_TEXT_OK_LBL" description="COM_VFC_TEXT_OK_DSC" default="COM_VFC_SENTTEXT_DFLT" />
+			<field name="email_sent_textdisplay" type="hidden" default="1" />
+
+		</fieldset>
+
+		<fieldset name="security" label="COM_VFC_SECURITY_LBL">
+
+			<field type="vfheader" default="COM_VFC_ANTISPAM_LBL" description="COM_VFC_ANTISPAM_DSC" icon="error-16.png"/>
+			<field name="spam_check" type="list" label="COM_VFC_ANTISPAM_ENABLED_LBL" description="" default="1">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+
+			<field name="spam_words" type="vftextarea" cols="30" rows="3" label="COM_VFC_ANTISPAM_WORDS_LBL" description="COM_VFC_ANTISPAM_WORDS_DSC" default="COM_VFC_SPAMWORDS_DFLT"/>
+
+			<field name="spam_detected_text" type="vftextarea" rows="4" cols="48" filter="safehtml" label="COM_VFC_ANTISPAM_MESSAGE_LBL" description="COM_VFC_ANTISPAM_MESSAGE_DSC" default="COM_VFC_SPAMTEXT_DFLT"/>
+			<field name="spam_detected_textdisplay" type="hidden" default="1" />
+
+		</fieldset>
+
+	</fields>
+
+</metadata>
+

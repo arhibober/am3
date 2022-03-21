@@ -1,0 +1,103 @@
+.foxmessage {
+margin:24px 0px 24px 0px;
+}
+.foxform {
+padding:10px;
+}
+.foxform div
+{
+padding:2px 0;
+margin:0 0 10px 0;
+}
+.foxform label {
+float:left;
+width:250px;
+margin-bottom:5px;
+}
+.foxform input, .foxform textarea {
+color:#505050;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+padding:5px;
+box-shadow:0 0 10px rgba(192, 192, 192, 0.7) inset, 0px 0px 7px rgba(192, 192, 192, 0.7);
+-moz-box-shadow:0 0 10px rgba(192, 192, 192, 0.7) inset, 0px 0px 7px rgba(192, 192, 192, 0.7);
+-webkit-box-shadow:0 0 10px rgba(192, 192, 192, 0.7) inset, 0px 0px 7px rgba(192, 192, 192, 0.7);
+border:1px solid #c0c0c0;
+}
+.foxform input:focus {
+border:1px solid #c0c0c0;
+}
+input.foxtext {
+color:#505050;
+}
+input.validfoxtext, textarea.validfoxtext {
+color:#505050;
+box-shadow:0 0 10px rgba(80, 192, 80, 0.7) inset, 0px 0px 7px rgba(80, 192, 80, 0.7);
+-moz-box-shadow:0 0 10px rgba(80, 192, 80, 0.7) inset, 0px 0px 7px rgba(80, 192, 80, 0.7);
+-webkit-box-shadow:0 0 10px rgba(80, 192, 80, 0.7) inset, 0px 0px 7px rgba(80, 192, 80, 0.7);
+border:1px solid rgb(80, 192, 80);
+}
+input.invalidfoxtext, textarea.invalidfoxtext {
+color:#505050;
+box-shadow:0 0 10px rgba(192, 80, 80, 0.7) inset, 0px 0px 7px rgba(192, 80, 80, 0.7);
+-moz-box-shadow:0 0 10px rgba(192, 80, 80, 0.7) inset, 0px 0px 7px rgba(192, 80, 80, 0.7);
+-webkit-box-shadow:0 0 10px rgba(192, 80, 80, 0.7) inset, 0px 0px 7px rgba(192, 80, 80, 0.7);
+border:1px solid #c05050;
+}
+select.foxtext {
+box-shadow:0px 0px 7px rgba(192, 192, 192, 0.7);
+-moz-box-shadow:0px 0px 7px rgba(192, 192, 192, 0.7);
+-webkit-box-shadow:0px 0px 7px rgba(192, 192, 192, 0.7);
+border:1px solid #c0c0c0;
+}
+select.validfoxtext {
+box-shadow:0px 0px 10px rgba(80, 192, 80, 1.0);
+-moz-box-shadow:0px 0px 10px rgba(80, 192, 80, 1.0);
+-webkit-box-shadow:0px 0px 10px rgba(80, 192, 80, 1.0);
+border:1px solid rgb(80, 192, 80);
+}
+select.invalidfoxtext {
+box-shadow:0px 0px 10px rgb(192, 80, 80);
+-moz-box-shadow:0px 0px 10px rgb(192, 80, 80);
+-webkit-box-shadow:0px 0px 10px rgb(192, 80, 80);
+border:1px solid #c05050;
+}
+.foxcheckbox {
+box-shadow:0 0 10px rgba(192, 192, 192, 1.0) inset, 0px 0px 7px rgba(192, 192, 192, 1.0);
+-moz-box-shadow:0 0 10px rgba(192, 192, 192, 1.0) inset, 0px 0px 7px rgba(192, 192, 192, 1.0);
+-webkit-box-shadow:0 0 10px rgba(192, 192, 192, 1.0) inset, 0px 0px 7px rgba(192, 192, 192, 1.0);
+}
+.validcheckbox {
+box-shadow:0 0 10px rgba(0, 192, 0, 1.0) inset, 0px 0px 7px rgba(0, 192, 0, 1.0);
+-moz-box-shadow:0 0 10px rgba(0, 192, 0, 1.0) inset, 0px 0px 7px rgba(0, 192, 0, 1.0);
+-webkit-box-shadow:0 0 10px rgba(0, 192, 0, 1.0) inset, 0px 0px 7px rgba(0, 192, 0, 1.0);
+}
+.invalidcheckbox {
+box-shadow:0 0 10px rgba(192, 0, 0, 1.0) inset, 0px 0px 7px rgba(192, 0, 0, 1.0);
+-moz-box-shadow:0 0 10px rgba(192, 0, 0, 1.0) inset, 0px 0px 7px rgba(192, 0, 0, 1.0);
+-webkit-box-shadow:0 0 10px rgba(192, 0, 0, 1.0) inset, 0px 0px 7px rgba(192, 0, 0, 1.0);
+}
+button.foxbutton {
+cursor:pointer;
+padding:3px 5px 3px 5px;
+}
+.asterisk {
+color:#c05050;
+font-size: 16px;
+font-weight: bold;
+}
+.foxpowered {
+font-family:arial,verdana,sans-serif !important;
+font-size:10px !important;
+font-variant:small-caps !important;
+padding:10px 20px 10px 20px !important;
+float:right;
+}
+.foxpowered a {   
+font-family:arial,verdana,sans-serif !important;
+font-size:10px !important;
+font-variant:small-caps !important;
+text-decoration:none !important;
+}
+
